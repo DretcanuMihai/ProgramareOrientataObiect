@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Domeniu">
+      <UniqueIdentifier>{02f322ad-62d5-486d-8f90-31d559af20a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Domeniu\Entitati">
+      <UniqueIdentifier>{bc7b2284-0b54-4d7f-8175-3089b293ae54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Domeniu\Validatori">
+      <UniqueIdentifier>{ab701a3d-8d33-447e-a6ff-f59468a1b6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domeniu">
+      <UniqueIdentifier>{76568ef0-55c3-43ac-adab-59673f034d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domeniu\Entitati">
+      <UniqueIdentifier>{29f11aab-0b7a-43de-ad11-fde6a4c95a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domeniu\Validatori">
+      <UniqueIdentifier>{f60e4c73-bbce-4149-99ec-4c6fa546ef67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Repozitoriu">
+      <UniqueIdentifier>{40391aa9-8494-4de1-8cbb-c9aaff1e3167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Repozitoriu">
+      <UniqueIdentifier>{d5db88aa-1d38-4056-8309-428d03dc7557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilitare">
+      <UniqueIdentifier>{9f568c4e-103f-4a57-a7e8-27c5a1c2cc15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilitare">
+      <UniqueIdentifier>{2f6d9a6a-f1bb-4910-b5f2-ac0e61853b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Serviciu">
+      <UniqueIdentifier>{b8352d51-e1e4-4fe7-90f5-ee79c187c17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Serviciu">
+      <UniqueIdentifier>{ef6e38a8-b517-4359-9061-779a137ec3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Teste">
+      <UniqueIdentifier>{342e78d2-c8ca-4933-a5de-b7fb77652872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Teste">
+      <UniqueIdentifier>{714a1a45-1cf9-4b85-9130-d64e16e3c895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI_consola">
+      <UniqueIdentifier>{2643199a-5016-480a-8723-6b9121968ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI_consola">
+      <UniqueIdentifier>{15cb5b90-633e-4ae1-97c7-94e1659cf982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{c2d1b529-3710-4423-8d34-7f4d6d65b344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{18318647-81a3-4a6a-9cc2-e15f5584e45e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="problema_8.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="problema_8.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidatorLocatar.cpp">
+      <Filter>Source Files\Domeniu\Validatori</Filter>
+    </ClCompile>
+    <ClCompile Include="Locatar.cpp">
+      <Filter>Source Files\Domeniu\Entitati</Filter>
+    </ClCompile>
+    <ClCompile Include="RepozitoriuLocatariSp.cpp">
+      <Filter>Source Files\Repozitoriu</Filter>
+    </ClCompile>
+    <ClCompile Include="RepozitoriuLocatari.cpp">
+      <Filter>Source Files\Repozitoriu</Filter>
+    </ClCompile>
+    <ClCompile Include="RepozitoriuLocatariFisier.cpp">
+      <Filter>Source Files\Repozitoriu</Filter>
+    </ClCompile>
+    <ClCompile Include="Conversii.cpp">
+      <Filter>Source Files\Utilitare</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptiiLocatar.cpp">
+      <Filter>Source Files\Utilitare</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiuneUndo.cpp">
+      <Filter>Source Files\Serviciu</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaNotificare.cpp">
+      <Filter>Source Files\Serviciu</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiciuLocatari.cpp">
+      <Filter>Source Files\Serviciu</Filter>
+    </ClCompile>
+    <ClCompile Include="TesteLocatar.cpp">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="UILocatari.cpp">
+      <Filter>Source Files\UI_consola</Filter>
+    </ClCompile>
+    <ClCompile Include="GUImain.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIadmin.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWidget.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIgl.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer_Observable.cpp">
+      <Filter>Source Files\Utilitare</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIlnReadOnly.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListModel.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTableModel.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ValidatorLocatar.h">
+      <Filter>Header Files\Domeniu\Validatori</Filter>
+    </ClInclude>
+    <ClInclude Include="Locatar.h">
+      <Filter>Header Files\Domeniu\Entitati</Filter>
+    </ClInclude>
+    <ClInclude Include="RepozitoriuLocatari.h">
+      <Filter>Header Files\Repozitoriu</Filter>
+    </ClInclude>
+    <ClInclude Include="RepozitoriuLocatariAbstract.h">
+      <Filter>Header Files\Repozitoriu</Filter>
+    </ClInclude>
+    <ClInclude Include="RepozitoriuLocatariFisier.h">
+      <Filter>Header Files\Repozitoriu</Filter>
+    </ClInclude>
+    <ClInclude Include="RepozitoriuLocatariSp.h">
+      <Filter>Header Files\Repozitoriu</Filter>
+    </ClInclude>
+    <ClInclude Include="Conversii.h">
+      <Filter>Header Files\Utilitare</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptiiLocatar.h">
+      <Filter>Header Files\Utilitare</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiuneUndo.h">
+      <Filter>Header Files\Serviciu</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaNotificare.h">
+      <Filter>Header Files\Serviciu</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiciuLocatari.h">
+      <Filter>Header Files\Serviciu</Filter>
+    </ClInclude>
+    <ClInclude Include="TesteLocatar.h">
+      <Filter>Header Files\Teste</Filter>
+    </ClInclude>
+    <ClInclude Include="UILocatari.h">
+      <Filter>Header Files\UI_consola</Filter>
+    </ClInclude>
+    <ClInclude Include="GUImain.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWidget.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIadmin.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIgl.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer_Observable.h">
+      <Filter>Header Files\Utilitare</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIlnReadOnly.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListModel.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTableModel.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="repo_files\locatari.txt" />
+  </ItemGroup>
+</Project>

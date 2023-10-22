@@ -1,0 +1,77 @@
+333
+2
+3
+1
+2
+3
+open
+444
+444
+1
+44
+open
+2
+Chestii
+1
+Dan
+open
+1
+Chestiii
+1
+Marcus
+open
+3
+Chestiii
+2
+Daniel
+Dan
+open
+12
+Parcul Tineretului
+2
+Stefan
+George
+inprogress
+14
+Parcul Tineretului
+2
+Stefan
+Georg
+inprogress
+13
+Practic la OOP
+1
+George
+inprogress
+310
+Practic la OOP
+2
+Mihai
+George
+closed
+123
+ProiectNou
+1
+Gabi
+inprogress
+15
+Scoala
+2
+Gabi
+AltGabi
+inprogress
+140
+Ziua lui Dan
+1
+Catalin
+closed
+144
+Ziua lui Pepe
+1
+Mihai
+closed
+145
+Ziua lui Pepe
+1
+Mihai
+closed

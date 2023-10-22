@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Domeniu">
+      <UniqueIdentifier>{348ced3b-b693-480f-a6e6-b1e4d26e3d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Domeniu\Entitati">
+      <UniqueIdentifier>{1c9897d6-54e5-44ed-a099-626c0f0e9ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Domeniu\Validatori">
+      <UniqueIdentifier>{015a03f1-b7f0-4d45-a232-257ce2cd5c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Teste">
+      <UniqueIdentifier>{8a72875a-0d74-4b00-96ab-a5722e9caee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Repozitoriu">
+      <UniqueIdentifier>{c4b25b33-950b-48f3-9657-1b8c0ecb64a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilitare">
+      <UniqueIdentifier>{c3e3aa66-8113-4ec1-992a-4fdc11facda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Serviciu">
+      <UniqueIdentifier>{992ef365-12e2-4a3e-aa30-5ad3e79d8e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interfata">
+      <UniqueIdentifier>{a67fcc85-4430-4ecb-a7eb-9ae02575c446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Domeniu">
+      <UniqueIdentifier>{160dc4f0-5f74-4a53-90b6-4b6b3c17e444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domeniu\Entitati">
+      <UniqueIdentifier>{624b491b-1bc5-42a2-9eb4-68e33cd2d4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domeniu\Validatori">
+      <UniqueIdentifier>{67dc9302-beeb-4e0f-ba2d-6b76a3a6fc09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Teste">
+      <UniqueIdentifier>{2f4711fb-a47d-48bc-b36f-548bf077ecfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilitare">
+      <UniqueIdentifier>{57f266f0-97ad-48b3-bcb1-131314cd3291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Repozitoriu">
+      <UniqueIdentifier>{8e4adcae-dccd-4e61-87f3-bfc540167706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Serviciu">
+      <UniqueIdentifier>{60fad027-36bb-4453-97e2-efe37f7b0a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interfata">
+      <UniqueIdentifier>{a02bbd97-88ca-468f-8d1c-c1758d79a45e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TesteMain.c">
+      <Filter>Source Files\Teste</Filter>
+    </ClCompile>
+    <ClCompile Include="EntitateProdus.c">
+      <Filter>Source Files\Domeniu\Entitati</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidatorProdus.c">
+      <Filter>Source Files\Domeniu\Validatori</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorDinamic.c">
+      <Filter>Source Files\Utilitare</Filter>
+    </ClCompile>
+    <ClCompile Include="RepozitoriuProduse.c">
+      <Filter>Source Files\Repozitoriu</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiciuProduse.c">
+      <Filter>Source Files\Serviciu</Filter>
+    </ClCompile>
+    <ClCompile Include="UIProduse.c">
+      <Filter>Source Files\Interfata</Filter>
+    </ClCompile>
+    <ClCompile Include="ConversiiDinString.c">
+      <Filter>Source Files\Utilitare</Filter>
+    </ClCompile>
+    <ClCompile Include="PentruSortari.c">
+      <Filter>Source Files\Utilitare</Filter>
+    </ClCompile>
+    <ClCompile Include="PentruFiltrari.c">
+      <Filter>Source Files\Utilitare</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TesteMain.h">
+      <Filter>Header Files\Teste</Filter>
+    </ClInclude>
+    <ClInclude Include="EntitateProdus.h">
+      <Filter>Header Files\Domeniu\Entitati</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidatorProdus.h">
+      <Filter>Header Files\Domeniu\Validatori</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorDinamic.h">
+      <Filter>Header Files\Utilitare</Filter>
+    </ClInclude>
+    <ClInclude Include="RepozitoriuProduse.h">
+      <Filter>Header Files\Repozitoriu</Filter>
+    </ClInclude>
+    <ClInclude Include="UIProduse.h">
+      <Filter>Header Files\Interfata</Filter>
+    </ClInclude>
+    <ClInclude Include="ConversiiDinString.h">
+      <Filter>Header Files\Utilitare</Filter>
+    </ClInclude>
+    <ClInclude Include="PentruSortari.h">
+      <Filter>Header Files\Utilitare</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiciuProduse.h">
+      <Filter>Header Files\Serviciu</Filter>
+    </ClInclude>
+    <ClInclude Include="PentruFiltrari.h">
+      <Filter>Header Files\Utilitare</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
